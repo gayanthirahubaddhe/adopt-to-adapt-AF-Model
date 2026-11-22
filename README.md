@@ -102,6 +102,20 @@ This initiative aims to support the documentation of plant diversity and the app
 
 The information system provides a foundation for organizing ecological knowledge and supporting restoration planning and conservation-related activities.
 
+## Application Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Species Inventory
+![Species Inventory](screenshots/species_inventory.png)
+
+### Species Details
+![Species Details](screenshots/species_details.png)
+
 ### 👩‍💻 Developer
 
 **Gayanthi Rahubaddhe**
