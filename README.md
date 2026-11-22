@@ -1,180 +1,115 @@
 # ADOPT TO ADAPT
 ## Analog Forestry Model Information System
 
-**Restoration of Mid-Country Forest Ecosystems through Analog Forestry in Mariland Estate, Sri Lanka**
+### 🌱 Project Overview
 
----
+The **ADOPT TO ADAPT – Analog Forestry Model Information System** is a desktop-based information management application developed to support the documentation and management of plant diversity in an Analog Forestry restoration initiative in Sri Lanka.
 
-## 1. Project Overview
+The project focuses on the restoration of mid-country forest ecosystems through Analog Forestry practices at Mariland Estate, Beddegama, Panwila, Kandy, Sri Lanka.
 
-ADOPT TO ADAPT is an Analog Forestry initiative focused on exploring ecological restoration, plant diversity and sustainable landscape management in the Upper Knuckles foothills of Sri Lanka.
+The application provides a digital platform to organize plant inventory information and explore ecological and botanical characteristics of recorded species.
 
-This project explores the potential of Analog Forestry as an ecological restoration approach for mid-country forest ecosystems. It focuses on understanding plant diversity, ecological functions, forest structure and the integration of useful plant species within restoration landscapes.
+### 📍 Project Location
 
-To support project documentation and biodiversity information management, a dedicated desktop-based **Analog Forestry Model Information System** has been developed using Python.
+- **Site:** Mariland Estate, Beddegama, Panwila
+- **District:** Kandy
+- **Province:** Central Province, Sri Lanka
+- **Landscape:** Upper Knuckles Foothills
 
-The system provides a structured platform for recording, organizing, searching and exploring plant species information associated with the Analog Forestry project.
+### 🎯 Project Objectives
 
-## 2. Project Location
+- Document plant species recorded within the Analog Forestry site.
+- Organize botanical and ecological information in a structured database.
+- Support the exploration of plant diversity and family composition.
+- Provide an accessible digital information system for restoration-related activities.
+- Establish a foundation for future ecological monitoring and landscape management.
 
-**Study Area:** Mariland Estate, Beddegama, Panwila, Kandy, Central Province, Sri Lanka.
+### 💻 Application Features
 
-The project is situated in the Upper Knuckles foothills, a landscape of ecological importance within Sri Lanka's central highlands.
-
-The initiative explores opportunities for restoring mid-country forest ecosystems through forest-inspired land management and biodiversity conservation.
-
-## 3. Project Objectives
-
-The main objectives are:
-
-- Explore Analog Forestry as an ecological restoration approach.
-- Document plant species diversity within the Analog Forestry project site.
-- Organize botanical and ecological information into a structured database.
-- Develop a digital information system for plant inventory management.
-- Support the understanding of plant ecological functions and restoration strategies.
-- Establish a foundation for future biodiversity monitoring and research.
-
-## 4. Analog Forestry Information System
-
-The ADOPT TO ADAPT desktop application was developed to support the organization and exploration of plant inventory information.
-
-### Main Features
-
-**Interactive Dashboard**
-- Dedicated homepage introducing the Analog Forestry initiative.
-- Project overview and information sections.
-- Summary statistics and plant family visualization.
-- Navigation to the plant inventory.
-
-**AF Site Plant Inventory**
-- Structured species inventory containing 117 recorded plant species.
-- Searchable species records.
-- Botanical names, English names and plant families.
-- Species identification through a four-column inventory table.
-
-**Species Details Window**
-
-A dedicated species information window provides access to additional recorded information, including:
-
-- Basic botanical information.
-- Growth characteristics.
-- Ecological functions.
-- Environmental requirements.
-- Conservation and additional information.
-- Optional species photographs.
+- Interactive homepage and project introduction.
+- Dashboard displaying plant inventory summaries.
+- Analog Forestry site species inventory.
+- Searchable plant species records.
+- Detailed species information windows.
+- Botanical name, English name and family information.
 - Previous and next species navigation.
+- Plant family distribution visualization.
+- SQLite database integration.
+- Support for species photographs.
 
-**Database Management**
+### 🛠️ Technologies Used
 
-The application uses an SQLite database to organize and retrieve plant inventory records.
+- Python
+- Tkinter
+- SQLite
+- Matplotlib
+- Pillow (PIL)
+- PyCharm
 
-## 5. Technology Stack
+### 🌳 Current Database
 
-| Technology | Application |
-|---|---|
-| Python | Application development |
-| Tkinter | Graphical user interface |
-| SQLite | Database management |
-| Matplotlib | Data visualization |
-| Pillow (PIL) | Image processing and display |
-| PyCharm | Development environment |
+The current Analog Forestry site inventory contains **117 plant species records**.
 
-## 6. Project Structure
+The database is designed to organize botanical information and additional ecological characteristics for individual species.
+
+### 📁 Project Structure
 
 ```text
 ADOPT-TO-ADAPT/
 │
 ├── af_inventory.py
 ├── database.py
+├── README.md
+├── requirements.txt
+├── .gitignore
 ├── Logo.png
 │
 ├── images/
-│   └── landscape.jpg
-│
 ├── plant_images/
-│   └── Species photographs
-│
-├── db_storage/
-│   └── analog_forestry.db
-│
-├── README.md
-└── requirements.txt
+└── db_storage/
 ```
 
-*The database and supporting files may be maintained separately from the public source-code repository.*
+### 🚀 Installation
 
-## 7. Installation and Setup
-
-### Requirements
-
-- Python 3.10 or later recommended.
-- Pillow
-- Matplotlib
-
-Tkinter and SQLite are included with most standard Python installations.
-
-### Step 1: Clone the repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-### Step 2: Navigate to the project directory
-
-```bash
-cd ADOPT-TO-ADAPT
-```
-
-### Step 3: Install required packages
+1. Install Python.
+2. Clone or download this repository.
+3. Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Prepare the project files
-
-Ensure that the required SQLite database is available in the expected location and that the image folders and logo are present.
-
-### Step 5: Run the application
+4. Ensure the required SQLite database is available in the expected project location.
+5. Run the application:
 
 ```bash
 python af_inventory.py
 ```
 
-## 8. Future Development
+### 🔭 Future Development
 
-The current application establishes the foundation for a broader Analog Forestry information-management platform.
+Planned improvements include:
 
-Potential future developments include:
+- Natural Forest Species Inventory module.
+- Expanded plant photographic documentation.
+- Additional ecological and biodiversity visualizations.
+- GIS and remote sensing integration.
+- Further development of ecological monitoring tools.
 
-- Natural Forest Species Inventory.
-- Expanded plant species photographic documentation.
-- Advanced biodiversity data visualization.
-- Geographical visualization of plant distribution.
-- Ecological and functional plant classification.
-- Integration with GIS and remote-sensing datasets.
-- Improved biodiversity monitoring and reporting capabilities.
-- Web-based access to project information.
+### 🌍 Project Significance
 
-## 9. Project Significance
+This initiative aims to support the documentation of plant diversity and the application of Analog Forestry principles in mid-country forest landscapes of Sri Lanka.
 
-The ADOPT TO ADAPT initiative brings together ecological restoration, biodiversity documentation and digital information management.
+The information system provides a foundation for organizing ecological knowledge and supporting restoration planning and conservation-related activities.
 
-By developing a dedicated plant inventory system, the project aims to improve the accessibility and organization of botanical and ecological information while supporting future research and restoration planning.
+### 👩‍💻 Developer
 
-The information system is intended to evolve alongside the Analog Forestry initiative, providing a foundation for documenting and understanding plant diversity within restoration landscapes.
+**Gayanthi Rahubaddhe**
 
-## 10. Acknowledgements
+Independent Researcher
 
-This project forms part of the ADOPT TO ADAPT Analog Forestry initiative in Mariland Estate, Sri Lanka.
-
-The initiative acknowledges the importance of collaborative learning, ecological knowledge, biodiversity conservation and community engagement in developing sustainable restoration landscapes.
+Sri Lanka
 
 ---
 
-**Project:** ADOPT TO ADAPT – Analog Forestry Initiative  
-**Location:** Mariland Estate, Beddegama, Panwila, Kandy, Sri Lanka  
-**Information System:** Analog Forestry Model Information System  
-**Developer:** Gayanthi Rahubaddhe
-
-*An initiative towards restoring landscapes, reconnecting biodiversity and supporting sustainable forest ecosystems.* 🌿
+*ADOPT TO ADAPT – Restoration of Mid-Country Forest Ecosystems through Analog Forestry in Mariland Estate, Sri Lanka.*
